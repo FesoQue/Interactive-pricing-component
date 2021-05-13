@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Interactive pricing component</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <script src="./js/all.min.js"></script>
+  </head>
+  <body>
+    <div class="section-center">
+      <div class="heading">
+        <h1>Simple, traffic-based pricing</h1>
+
+        <p>
+          sign-up for our 30-day trial. <br />
+          No credit card required
+        </p>
+      </div>
+      <div class="pricing-card card">
+        <div class="d-flex">
+          <p class="page-view"><span class="views">100k</span> pageviews</p>
+          <div class="pricing-package">
+            <div class="slide-container">
+              <input type="range" class="slider" id="myslider" name="slider" />
+            </div>
+          </div>
+          <div class="price">
+            <h3 class="price-demo">$<span class="figure">16</span>.00</h3>
+            <!-- <p class="per-month">/ month</p> -->
+            <p class="time"></p>
+          </div>
+        </div>
+        <div class="billing">
+          <p>Monthly Billing</p>
+          <label class="switch">
+            <input type="checkbox" class="checkbox" />
+            <span class="toggle"></span>
+          </label>
+          <p>Yearly Billing</p>
+          <small>-25% <span class="hide">discount</span> </small>
+        </div>
+        <div class="benefits">
+          <div class="info-items">
+            <!-- one -->
+            <div class="info">
+              <i class="fas fa-check"></i>
+              <p>unlimited websites</p>
+            </div>
+            <!-- two -->
+            <div class="info">
+              <i class="fas fa-check"></i>
+              <p>100% data ownership</p>
+            </div>
+            <!-- three -->
+            <div class="info">
+              <i class="fas fa-check"></i>
+              <p>email reports</p>
+            </div>
+          </div>
+          <!-- cta button -->
+          <a href="#" class="cta-btn">start my trial</a>
+        </div>
+      </div>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Feso Que</a>.
+        </div>
+      </footer>
+    </div>
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
